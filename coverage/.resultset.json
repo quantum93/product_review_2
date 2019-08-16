@@ -628,6 +628,9 @@
       ],
       "/Users/taebum/Desktop/product_review/config/routes.rb": [
         1,
+        null,
+        null,
+        1,
         1,
         1,
         1,
@@ -636,6 +639,7 @@
         null
       ],
       "/Users/taebum/Desktop/product_review/app/models/user.rb": [
+        1,
         1,
         1,
         null,
@@ -652,6 +656,14 @@
       ],
       "/Users/taebum/Desktop/product_review/app/controllers/application_controller.rb": [
         1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/taebum/Desktop/product_review/app/helpers/application_helper.rb": [
@@ -689,7 +701,7 @@
         null,
         1,
         0,
-        0,
+        null,
         0,
         0,
         0,
@@ -793,6 +805,7 @@
       ],
       "/Users/taebum/Desktop/product_review/app/controllers/users_controller.rb": [
         1,
+        1,
         null,
         1,
         0,
@@ -895,6 +908,7 @@
         1,
         1,
         1,
+        1,
         null
       ],
       "/Users/taebum/Desktop/product_review/spec/models/review_spec.rb": [
@@ -931,6 +945,6 @@
         null
       ]
     },
-    "timestamp": 1565991255
+    "timestamp": 1565993523
   }
 }
