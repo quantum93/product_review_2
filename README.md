@@ -50,6 +50,7 @@ The site should have functionality to review products so your database should in
 | creating scope feature for three_most_recent product in landing page |
 | creating user authentication with devise |
 | performing some spec tests |
+| creating user Controllers for products |
 
 ## Known Bugs
 
