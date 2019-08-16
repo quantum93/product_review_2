@@ -12,6 +12,10 @@
         2,
         null,
         null,
+        1,
+        1,
+        0,
+        null,
         null,
         null,
         null,
@@ -58,6 +62,7 @@
         null,
         1,
         null,
+        1,
         1,
         null,
         null,
@@ -605,6 +610,22 @@
         null,
         null
       ],
+      "/Users/taebum/Desktop/product_review/spec/factories.rb": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/taebum/Desktop/product_review/config/routes.rb": [
         1,
         1,
@@ -887,6 +908,16 @@
         2,
         2,
         null,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null
       ],
@@ -900,6 +931,6 @@
         null
       ]
     },
-    "timestamp": 1565990635
+    "timestamp": 1565991255
   }
 }

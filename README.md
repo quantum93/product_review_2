@@ -51,7 +51,8 @@ The site should have functionality to review products so your database should in
 | creating user authentication with devise |
 | performing some spec tests |
 | creating user Controllers for products |
-| Implementing SimpleCov feature in spec test process.| 
+| Implementing SimpleCov feature in spec test process.|
+| Implementing FactoryBot feature in specs |
 
 ## Known Bugs
 

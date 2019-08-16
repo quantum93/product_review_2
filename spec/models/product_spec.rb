@@ -6,8 +6,12 @@ describe Product do
   it { should validate_presence_of :name }
   it { should validate_presence_of :cost }
   it { should validate_presence_of :country_of_origin }
-  # it { should validate_length_of(:content_body).is_at_most(250) }
-  # it { should validate_length_of(:content_body).is_at_least(50) }
+
+  # All products are automatically titleized (first letter of each word capitalized) before they are saved to the database.
+  it("titleizes the name of a product") do
+    product = FactoryBot.create(:product, name: "gala apples")
+    expect(product.name).to eq "Gala Apples"
+  end
 end
 
 # describe Product do

@@ -14,27 +14,27 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-16T14:23:55-07:00">2019-08-16T14:23:55-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-16T14:34:15-07:00">2019-08-16T14:34:15-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">67.09%</span></span>
+    (<span class="covered_percent"><span class="red">66.67%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.73
+         0.74
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>32</b> files in total.
-    <b>234</b> relevant lines. 
-    <span class="green"><b>157</b> lines covered</span> and
-    <span class="red"><b>77</b> lines missed </span>
+    <b>33</b> files in total.
+    <b>258</b> relevant lines. 
+    <span class="green"><b>172</b> lines covered</span> and
+    <span class="red"><b>86</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -331,23 +331,33 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#b938674e86fb0842d64aed805db3b4d6480758f0" class="src_link" title="spec/models/product_spec.rb">spec/models/product_spec.rb</a></td>
+        <td class="strong"><a href="#ed4a38003416339c41257bc328892fa94fb51b0f" class="src_link" title="spec/factories.rb">spec/factories.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>20</td>
-        <td>6</td>
-        <td>6</td>
+        <td>14</td>
+        <td>10</td>
+        <td>10</td>
         <td>0</td>
-        <td>1.7</td>
+        <td>1.5</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#b938674e86fb0842d64aed805db3b4d6480758f0" class="src_link" title="spec/models/product_spec.rb">spec/models/product_spec.rb</a></td>
+        <td class="yellow strong">88.89 %</td>
+        <td>24</td>
+        <td>9</td>
+        <td>8</td>
+        <td>1</td>
+        <td>1.3</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#3bca6d2eaa27a60bfa1f97e84c82986690c9515b" class="src_link" title="spec/models/review_spec.rb">spec/models/review_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>12</td>
+        <td class="red strong">55.56 %</td>
+        <td>22</td>
+        <td>18</td>
+        <td>10</td>
         <td>8</td>
-        <td>8</td>
-        <td>0</td>
-        <td>1.8</td>
+        <td>0.9</td>
       </tr>
       
       <tr>
@@ -362,10 +372,10 @@
       
       <tr>
         <td class="strong"><a href="#da4fb2498f7b54716d1553cfb80672a636be3051" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
-        <td class="yellow strong">88.24 %</td>
-        <td>68</td>
-        <td>17</td>
-        <td>15</td>
+        <td class="yellow strong">88.89 %</td>
+        <td>69</td>
+        <td>18</td>
+        <td>16</td>
         <td>2</td>
         <td>0.9</td>
       </tr>
@@ -5280,14 +5290,117 @@
 </div>
 
       
+        <div class="source_table" id="ed4a38003416339c41257bc328892fa94fb51b0f">
+  <div class="header">
+    <h3>spec/factories.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>10</b> relevant lines. 
+      <span class="green"><b>10</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">FactoryBot.define do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  factory :product do</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="3">
+          <span class="hits">2</span>
+          
+          <code class="ruby">    name { &quot;Apples&quot; }</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="4">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    cost  { 2 }</code>
+        </li>
+      
+        <li class="covered" data-hits="3" data-linenumber="5">
+          <span class="hits">3</span>
+          
+          <code class="ruby">    country_of_origin { &quot;United States&quot;}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  factory :review do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    product_id { 1 }</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    author  { &quot;Tae Lee&quot; }</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    content_body { &quot;La ~~~ La ~~~ La ~~~ &quot;}</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    rating { 3 }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
         <div class="source_table" id="b938674e86fb0842d64aed805db3b4d6480758f0">
   <div class="header">
     <h3>spec/models/product_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="yellow">88.89 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>6</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>9</b> relevant lines. 
+      <span class="green"><b>8</b> lines covered</span> and
+      <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
   
@@ -5345,70 +5458,94 @@
         <li class="never" data-hits="" data-linenumber="9">
           
           
-          <code class="ruby">  # it { should validate_length_of(:content_body).is_at_most(250) }</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">  # it { should validate_length_of(:content_body).is_at_least(50) }</code>
+          <code class="ruby">  # All products are automatically titleized (first letter of each word capitalized) before they are saved to the database.</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">end</code>
+          <code class="ruby">  it(&quot;titleizes the name of a product&quot;) do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">    product = FactoryBot.create(:product, name: &quot;gala apples&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="missed" data-hits="0" data-linenumber="13">
           
           
-          <code class="ruby"># describe Product do</code>
+          <code class="ruby">    expect(product.name).to eq &quot;Gala Apples&quot;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby">#   it(&quot;titleizes the name of an product&quot;) do</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">#     product = Product.create({name: &quot;bibimbop&quot;, cost: 5, country_of_origin: &quot;Republic of Korea&quot;})</code>
+          <code class="ruby">end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby">#     expect(product.name()).to(eq(&quot;Bibimbop&quot;))</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby">#     expect(product.cost()).to(eq(5))</code>
+          <code class="ruby"># describe Product do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">#     expect(product.country_of_origin()).to(eq(&quot;Republic of Korea&quot;))</code>
+          <code class="ruby">#   it(&quot;titleizes the name of an product&quot;) do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby">#   end</code>
+          <code class="ruby">#     product = Product.create({name: &quot;bibimbop&quot;, cost: 5, country_of_origin: &quot;Republic of Korea&quot;})</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">#     expect(product.name()).to(eq(&quot;Bibimbop&quot;))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">#     expect(product.cost()).to(eq(5))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
+          
+          
+          <code class="ruby">#     expect(product.country_of_origin()).to(eq(&quot;Republic of Korea&quot;))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="23">
+          
+          
+          <code class="ruby">#   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby"># end</code>
@@ -5422,11 +5559,11 @@
         <div class="source_table" id="3bca6d2eaa27a60bfa1f97e84c82986690c9515b">
   <div class="header">
     <h3>spec/models/review_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
+    <h4><span class="red">55.56 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>18</b> relevant lines. 
+      <span class="green"><b>10</b> lines covered</span> and
+      <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
   
@@ -5490,16 +5627,76 @@
         <li class="never" data-hits="" data-linenumber="10">
           
           
-          <code class="ruby">  # it { should validate_length_of(:content_body).is_at_least(50) }</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">  # it { should validate_length_of(:content_body).is_at_most(250) }</code>
+          <code class="ruby">  it(&quot;has a product_id, author, content_body, and rating&quot;) do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    product = FactoryBot.create(:product)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="13">
+          
+          
+          <code class="ruby">    author = &quot;Tae Lee&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="14">
+          
+          
+          <code class="ruby">    content_body = &quot;La ~~~ La ~~~ La ~~~&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="15">
+          
+          
+          <code class="ruby">    rating = 3</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">    review = FactoryBot.create(:review, product_id: product.id, author: author, content_body: content_body, rating: rating)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="17">
+          
+          
+          <code class="ruby">    expect(review.author).to eq author</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="18">
+          
+          
+          <code class="ruby">    expect(review.rating).to eq rating</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">    expect(review.product_id).to eq product.id</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">    expect(review.content_body).to eq content_body</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="22">
           
           
           <code class="ruby">end</code>
@@ -5574,10 +5771,10 @@
         <div class="source_table" id="da4fb2498f7b54716d1553cfb80672a636be3051">
   <div class="header">
     <h3>spec/rails_helper.rb</h3>
-    <h4><span class="yellow">88.24 %</span> covered</h4>
+    <h4><span class="yellow">88.89 %</span> covered</h4>
     <div>
-      <b>17</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>18</b> relevant lines. 
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>2</b> lines missed.</span>
     </div>
   </div>
@@ -5795,199 +5992,205 @@
           <code class="ruby">  config.fixture_path = &quot;#{::Rails.root}/spec/fixtures&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="36">
+        <li class="covered" data-hits="1" data-linenumber="36">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">  config.include FactoryBot::Syntax::Methods</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="37">
           
           
-          <code class="ruby">  # If you&#39;re not using ActiveRecord, or you&#39;d prefer not to run each of your</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="38">
           
           
-          <code class="ruby">  # examples within a transaction, remove the following line or assign false</code>
+          <code class="ruby">  # If you&#39;re not using ActiveRecord, or you&#39;d prefer not to run each of your</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="39">
           
           
+          <code class="ruby">  # examples within a transaction, remove the following line or assign false</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="40">
+          
+          
           <code class="ruby">  # instead of true.</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="40">
+        <li class="covered" data-hits="1" data-linenumber="41">
           <span class="hits">1</span>
           
           <code class="ruby">  config.use_transactional_fixtures = true</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="41">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
         <li class="never" data-hits="" data-linenumber="42">
           
           
-          <code class="ruby">  # RSpec Rails can automatically mix in different behaviours to your tests</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="43">
           
           
-          <code class="ruby">  # based on their file location, for example enabling you to call `get` and</code>
+          <code class="ruby">  # RSpec Rails can automatically mix in different behaviours to your tests</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="44">
           
           
-          <code class="ruby">  # `post` in specs under `spec/controllers`.</code>
+          <code class="ruby">  # based on their file location, for example enabling you to call `get` and</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="45">
           
           
-          <code class="ruby">  #</code>
+          <code class="ruby">  # `post` in specs under `spec/controllers`.</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="46">
           
           
-          <code class="ruby">  # You can disable this behaviour by removing the line below, and instead</code>
+          <code class="ruby">  #</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="47">
           
           
-          <code class="ruby">  # explicitly tag your specs with their type, e.g.:</code>
+          <code class="ruby">  # You can disable this behaviour by removing the line below, and instead</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="48">
           
           
-          <code class="ruby">  #</code>
+          <code class="ruby">  # explicitly tag your specs with their type, e.g.:</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="49">
           
           
-          <code class="ruby">  #     RSpec.describe UsersController, :type =&gt; :controller do</code>
+          <code class="ruby">  #</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="50">
           
           
-          <code class="ruby">  #       # ...</code>
+          <code class="ruby">  #     RSpec.describe UsersController, :type =&gt; :controller do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="51">
           
           
-          <code class="ruby">  #     end</code>
+          <code class="ruby">  #       # ...</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="52">
           
           
-          <code class="ruby">  #</code>
+          <code class="ruby">  #     end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="53">
           
           
-          <code class="ruby">  # The different available types are documented in the features, such as in</code>
+          <code class="ruby">  #</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="54">
           
           
+          <code class="ruby">  # The different available types are documented in the features, such as in</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="55">
+          
+          
           <code class="ruby">  # https://relishapp.com/rspec/rspec-rails/docs</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="55">
+        <li class="covered" data-hits="1" data-linenumber="56">
           <span class="hits">1</span>
           
           <code class="ruby">  config.infer_spec_type_from_file_location!</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="56">
+        <li class="never" data-hits="" data-linenumber="57">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="57">
+        <li class="never" data-hits="" data-linenumber="58">
           
           
           <code class="ruby">  # Filter lines from Rails gems in backtraces.</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="58">
+        <li class="covered" data-hits="1" data-linenumber="59">
           <span class="hits">1</span>
           
           <code class="ruby">  config.filter_rails_from_backtrace!</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="59">
+        <li class="never" data-hits="" data-linenumber="60">
           
           
           <code class="ruby">  # arbitrary gems may also be filtered via:</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="60">
+        <li class="never" data-hits="" data-linenumber="61">
           
           
           <code class="ruby">  # config.filter_gems_from_backtrace(&quot;gem name&quot;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="61">
+        <li class="never" data-hits="" data-linenumber="62">
           
           
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="62">
+        <li class="never" data-hits="" data-linenumber="63">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="63">
+        <li class="covered" data-hits="1" data-linenumber="64">
           <span class="hits">1</span>
           
           <code class="ruby">Shoulda::Matchers.configure do |config|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="64">
+        <li class="covered" data-hits="1" data-linenumber="65">
           <span class="hits">1</span>
           
           <code class="ruby">  config.integrate do |with|</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="65">
+        <li class="covered" data-hits="1" data-linenumber="66">
           <span class="hits">1</span>
           
           <code class="ruby">    with.test_framework :rspec</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="66">
+        <li class="covered" data-hits="1" data-linenumber="67">
           <span class="hits">1</span>
           
           <code class="ruby">    with.library :rails</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="67">
+        <li class="never" data-hits="" data-linenumber="68">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="68">
+        <li class="never" data-hits="" data-linenumber="69">
           
           
           <code class="ruby">end</code>
