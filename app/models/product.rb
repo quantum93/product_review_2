@@ -1,4 +1,5 @@
 class Product < ApplicationRecord
+  belong_to :user
   has_many :reviews, dependent: :destroy
   validates :name, presence: true
   validates :cost, presence: true
