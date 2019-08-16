@@ -1,4 +1,6 @@
 class ReviewsController < ApplicationController
+  before_action :authenticate_user!, :except => [:index]
+
   def new
     @product = Product.find(params[:product_id])
     @review = @product.reviews.new
@@ -9,8 +11,10 @@ class ReviewsController < ApplicationController
     @product = Product.find(params[:product_id])
     @review = @product.reviews.new(review_params)
     if @review.save
+      flash[:notice] = "Review successfully added!"
       redirect_to product_path(@product)
     else
+      flash[:alert] = "Could not save new review!"
       render :new
     end
   end
