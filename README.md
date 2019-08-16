@@ -49,6 +49,7 @@ The site should have functionality to review products so your database should in
 | We fix it with the remove of current data and table and new migration step for timestamps and recreate data using seed with faker     |
 | creating scope feature for three_most_recent product in landing page |
 | creating user authentication with devise |
+| performing some spec tests |
 
 ## Known Bugs
 
