@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 describe Product do
+  before :each do
+    Product.destroy_all
+  end
   # it { should belong_to(:user) }
   it { should have_many(:reviews) }
   it { should validate_presence_of :name }

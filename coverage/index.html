@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-21T20:19:46-07:00">2019-08-21T20:19:46-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-08-21T20:43:27-07:00">2019-08-21T20:43:27-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">67.42%</span></span>
+    (<span class="covered_percent"><span class="red">68.13%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.75
+         0.82
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>33</b> files in total.
-    <b>267</b> relevant lines. 
-    <span class="green"><b>180</b> lines covered</span> and
+    <b>273</b> relevant lines. 
+    <span class="green"><b>186</b> lines covered</span> and
     <span class="red"><b>87</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -342,22 +342,22 @@
       
       <tr>
         <td class="strong"><a href="#5894e6c12a3ff6a8c9d0feeba78ce6e87c757ee4" class="src_link" title="spec/models/product_spec.rb">spec/models/product_spec.rb</a></td>
-        <td class="yellow strong">88.89 %</td>
-        <td>24</td>
-        <td>9</td>
-        <td>8</td>
+        <td class="green strong">90.91 %</td>
+        <td>27</td>
+        <td>11</td>
+        <td>10</td>
         <td>1</td>
-        <td>1.3</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#4938be8699c88048b631529bb8b5269df4ef9bc3" class="src_link" title="spec/models/review_spec.rb">spec/models/review_spec.rb</a></td>
-        <td class="red strong">55.56 %</td>
+        <td class="red strong">63.64 %</td>
+        <td>27</td>
         <td>22</td>
-        <td>18</td>
-        <td>10</td>
+        <td>14</td>
         <td>8</td>
-        <td>0.9</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
@@ -5474,10 +5474,10 @@
         <div class="source_table" id="5894e6c12a3ff6a8c9d0feeba78ce6e87c757ee4">
   <div class="header">
     <h3>spec/models/product_spec.rb</h3>
-    <h4><span class="yellow">88.89 %</span> covered</h4>
+    <h4><span class="green">90.91 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>11</b> relevant lines. 
+      <span class="green"><b>10</b> lines covered</span> and
       <span class="red"><b>1</b> lines missed.</span>
     </div>
   </div>
@@ -5503,127 +5503,145 @@
           <code class="ruby">describe Product do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  # it { should belong_to(:user) }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="5">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should have_many(:reviews) }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :name }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :cost }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="8">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :country_of_origin }</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">  # All products are automatically titleized (first letter of each word capitalized) before they are saved to the database.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  it(&quot;titleizes the name of a product&quot;) do</code>
+          <code class="ruby">  before :each do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="5" data-linenumber="5">
+          <span class="hits">5</span>
           
-          <code class="ruby">    product = FactoryBot.create(:product, name: &quot;gala apples&quot;)</code>
+          <code class="ruby">    Product.destroy_all</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
-          
-          
-          <code class="ruby">    expect(product.name).to eq &quot;Gala Apples&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby">  # it { should belong_to(:user) }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="16">
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should have_many(:reviews) }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="9">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :name }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :cost }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="11">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :country_of_origin }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby"></code>
         </li>
       
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  # All products are automatically titleized (first letter of each word capitalized) before they are saved to the database.</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it(&quot;titleizes the name of a product&quot;) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    product = FactoryBot.create(:product, name: &quot;gala apples&quot;)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="16">
+          
+          
+          <code class="ruby">    expect(product.name).to eq &quot;Gala Apples&quot;</code>
+        </li>
+      
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby"># describe Product do</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">#   it(&quot;titleizes the name of an product&quot;) do</code>
+          <code class="ruby">end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby">#     product = Product.create({name: &quot;bibimbop&quot;, cost: 5, country_of_origin: &quot;Republic of Korea&quot;})</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">#     expect(product.name()).to(eq(&quot;Bibimbop&quot;))</code>
+          <code class="ruby"># describe Product do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
           
           
-          <code class="ruby">#     expect(product.cost()).to(eq(5))</code>
+          <code class="ruby">#   it(&quot;titleizes the name of an product&quot;) do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">#     expect(product.country_of_origin()).to(eq(&quot;Republic of Korea&quot;))</code>
+          <code class="ruby">#     product = Product.create({name: &quot;bibimbop&quot;, cost: 5, country_of_origin: &quot;Republic of Korea&quot;})</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">#   end</code>
+          <code class="ruby">#     expect(product.name()).to(eq(&quot;Bibimbop&quot;))</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
+          
+          
+          <code class="ruby">#     expect(product.cost()).to(eq(5))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="25">
+          
+          
+          <code class="ruby">#     expect(product.country_of_origin()).to(eq(&quot;Republic of Korea&quot;))</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">#   end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby"># end</code>
@@ -5637,10 +5655,10 @@
         <div class="source_table" id="4938be8699c88048b631529bb8b5269df4ef9bc3">
   <div class="header">
     <h3>spec/models/review_spec.rb</h3>
-    <h4><span class="red">55.56 %</span> covered</h4>
+    <h4><span class="red">63.64 %</span> covered</h4>
     <div>
-      <b>18</b> relevant lines. 
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>22</b> relevant lines. 
+      <span class="green"><b>14</b> lines covered</span> and
       <span class="red"><b>8</b> lines missed.</span>
     </div>
   </div>
@@ -5666,115 +5684,145 @@
           <code class="ruby">describe Review do</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="4">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should belong_to(:product) }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="5">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :author }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :content_body }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :rating }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="8">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_presence_of :product_id }</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="9">
-          <span class="hits">2</span>
-          
-          <code class="ruby">  it { should validate_inclusion_of(:rating).in_range(1..5) }</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">  it(&quot;has a product_id, author, content_body, and rating&quot;) do</code>
+          <code class="ruby">  before :each do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="8" data-linenumber="5">
+          <span class="hits">8</span>
           
-          <code class="ruby">    product = FactoryBot.create(:product)</code>
+          <code class="ruby">    Product.destroy_all</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="13">
+        <li class="covered" data-hits="8" data-linenumber="6">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby">    author = &quot;Tae Lee&quot;</code>
+          <code class="ruby">    User.destroy_all</code>
         </li>
       
-        <li class="missed" data-hits="0" data-linenumber="14">
-          
-          
-          <code class="ruby">    content_body = &quot;La ~~~ La ~~~ La ~~~&quot;</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
-          
-          <code class="ruby">    rating = 3</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="16">
-          
-          
-          <code class="ruby">    review = FactoryBot.create(:review, product_id: product.id, author: author, content_body: content_body, rating: rating)</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="17">
-          
-          
-          <code class="ruby">    expect(review.author).to eq author</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="18">
-          
-          
-          <code class="ruby">    expect(review.rating).to eq rating</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="19">
-          
-          
-          <code class="ruby">    expect(review.product_id).to eq product.id</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
-          
-          <code class="ruby">    expect(review.content_body).to eq content_body</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="covered" data-hits="2" data-linenumber="8">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should belong_to(:product) }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="9">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :author }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :content_body }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="11">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :rating }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="12">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_presence_of :product_id }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="13">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_inclusion_of(:rating).in_range(1..5) }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="14">
+          <span class="hits">2</span>
+          
+          <code class="ruby">  it { should validate_length_of(:content_body).is_at_least(50).is_at_most(250) }</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="15">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  it(&quot;has a product_id, author, content_body, and rating&quot;) do</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    product = FactoryBot.create(:product)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="18">
+          
+          
+          <code class="ruby">    author = &quot;Tae Lee&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="19">
+          
+          
+          <code class="ruby">    content_body = &quot;La ~~~ La ~~~ La ~~~&quot;</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="20">
+          
+          
+          <code class="ruby">    rating = 3</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="21">
+          
+          
+          <code class="ruby">    review = FactoryBot.create(:review, product_id: product.id, author: author, content_body: content_body, rating: rating)</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="22">
+          
+          
+          <code class="ruby">    expect(review.author).to eq author</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="23">
+          
+          
+          <code class="ruby">    expect(review.rating).to eq rating</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="24">
+          
+          
+          <code class="ruby">    expect(review.product_id).to eq product.id</code>
+        </li>
+      
+        <li class="missed" data-hits="0" data-linenumber="25">
+          
+          
+          <code class="ruby">    expect(review.content_body).to eq content_body</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="26">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby">end</code>
