@@ -5,7 +5,7 @@
 
 #### By _**Tae Lee**_
 
-## Description
+# Description
 
 _A website for (fictional) Mario's Speciality Food Products created using Ruby on Rails._
 _Mario's Speciality Food Products (or another fictional company of your choosing). In particular, Mario is concerned_ _about the information in his database being correct; the goal for today is to have the most comprehensive validations_ _and callbacks to ensure information is properly saved and formatted in the database._
