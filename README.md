@@ -87,12 +87,12 @@ _The project should include flash success and error messages for creating produc
 
 ## Setup
 
-_bundle install_
-_rake db:create_
-_rake db:migrate_
-_rake db:seed_
-_rails server_
-_open http://localhost:3000 in a web browser_
+bundle install
+rake db:create
+rake db:migrate
+rake db:seed
+rails server
+open http://localhost:3000 in a web browser
 
 ## Support and contact details
 
