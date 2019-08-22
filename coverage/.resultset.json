@@ -1,31 +1,23 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/tae/Desktop/product_review_authentication/spec/models/product_spec.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/models/add_product_pages_spec.rb": [
         1,
         null,
         1,
         1,
-        5,
+        1,
         null,
         null,
-        2,
-        2,
-        2,
-        2,
-        null,
-        null,
+        1,
         1,
         1,
         0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null,
         null
@@ -36,6 +28,7 @@
         1,
         1,
         null,
+        1,
         1,
         1,
         null,
@@ -913,6 +906,56 @@
         1,
         null
       ],
+      "/Users/tae/Desktop/product_review_authentication/spec/models/display_error_message_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/tae/Desktop/product_review_authentication/spec/models/product_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        5,
+        null,
+        null,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/tae/Desktop/product_review_authentication/spec/models/review_spec.rb": [
         1,
         null,
@@ -952,6 +995,6 @@
         null
       ]
     },
-    "timestamp": 1566445407
+    "timestamp": 1566448831
   }
 }
