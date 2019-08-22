@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/taebum/Desktop/product_review/spec/models/product_spec.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/models/product_spec.rb": [
         1,
         null,
         1,
@@ -27,7 +27,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/spec/rails_helper.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -54,7 +54,7 @@
         null,
         null,
         null,
-        null,
+        1,
         1,
         null,
         0,
@@ -98,14 +98,14 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/environment.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/taebum/Desktop/product_review/config/application.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/application.rb": [
         1,
         null,
         1,
@@ -140,13 +140,13 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/boot.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/Users/taebum/Desktop/product_review/config/environments/test.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/environments/test.rb": [
         1,
         null,
         null,
@@ -194,7 +194,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/application_controller_renderer.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -204,7 +204,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/assets.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -220,7 +220,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/backtrace_silencers.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -229,7 +229,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/content_security_policy.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/content_security_policy.rb": [
         null,
         null,
         null,
@@ -256,14 +256,14 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/cookies_serializer.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/cookies_serializer.rb": [
         null,
         null,
         null,
         null,
         1
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/devise.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/devise.rb": [
         null,
         null,
         null,
@@ -564,13 +564,13 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/filter_parameter_logging.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/inflections.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -588,13 +588,13 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/mime_types.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/initializers/wrap_parameters.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -610,7 +610,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/spec/factories.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/factories.rb": [
         1,
         1,
         2,
@@ -626,7 +626,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/config/routes.rb": [
+      "/Users/tae/Desktop/product_review_authentication/config/routes.rb": [
         1,
         null,
         null,
@@ -638,7 +638,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/models/user.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/models/user.rb": [
         1,
         1,
         1,
@@ -649,12 +649,12 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/models/application_record.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/controllers/application_controller.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -666,109 +666,29 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/helpers/application_helper.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/channels/application_cable/channel.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/taebum/Desktop/product_review/app/channels/application_cable/connection.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/channels/application_cable/channel.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/controllers/products_controller.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/channels/application_cable/connection.rb": [
         1,
         1,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        1,
-        0,
-        null,
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/controllers/reviews_controller.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/controllers/products_controller.rb": [
         1,
         1,
         null,
         1,
         0,
         0,
-        0,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
         0,
         0,
         0,
@@ -777,6 +697,26 @@
         1,
         0,
         0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
         0,
         null,
         null,
@@ -784,7 +724,9 @@
         0,
         0,
         0,
+        0,
         null,
+        0,
         0,
         null,
         null,
@@ -793,7 +735,7 @@
         0,
         0,
         0,
-        null,
+        0,
         null,
         null,
         1,
@@ -803,7 +745,64 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/controllers/users_controller.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/controllers/reviews_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/tae/Desktop/product_review_authentication/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -857,17 +856,17 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/jobs/application_job.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/jobs/application_job.rb": [
         1,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/mailers/application_mailer.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/mailers/application_mailer.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/models/product.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/models/product.rb": [
         1,
         1,
         1,
@@ -879,13 +878,13 @@
         null,
         null,
         1,
+        null,
+        null,
+        null,
+        null,
         0,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         1,
@@ -898,7 +897,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/app/models/review.rb": [
+      "/Users/tae/Desktop/product_review_authentication/app/models/review.rb": [
         1,
         1,
         1,
@@ -911,7 +910,7 @@
         1,
         null
       ],
-      "/Users/taebum/Desktop/product_review/spec/models/review_spec.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/models/review_spec.rb": [
         1,
         null,
         1,
@@ -935,7 +934,7 @@
         null,
         null
       ],
-      "/Users/taebum/Desktop/product_review/spec/models/user_spec.rb": [
+      "/Users/tae/Desktop/product_review_authentication/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -945,6 +944,6 @@
         null
       ]
     },
-    "timestamp": 1565993523
+    "timestamp": 1566443986
   }
 }

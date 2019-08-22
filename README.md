@@ -7,10 +7,41 @@
 
 ## Description
 
-_You've in the running for a freelance development job as the developer for Mario's Speciality Food Products (or another fictional company of your choosing). First, Mario wants to make sure you're the right person for the job. He's asked you for an MVP and wants it by 5:00 tonight. The stakes are higher than usual, since Mario's old site had thousands of unique visitors each day. If you can get the job, this is a great way to increase your profile as a developer. In particular, Mario is concerned about the information in his database being correct; your goal for today is to have the most comprehensive validations and callbacks to ensure information is properly saved and formatted in the database.
+_A website for (fictional) Mario's Speciality Food Products created using Ruby on Rails._
+_Mario's Speciality Food Products (or another fictional company of your choosing). In particular, Mario is concerned_ _about the information in his database being correct; the goal for today is to have the most comprehensive validations_ _and callbacks to ensure information is properly saved and formatted in the database._
 
-Database
-The site should have functionality to review products so your database should include a one-to-many relationship between Products and Reviews. All products must have a name, cost and country_of_origin. All reviews should have an author, content_body and rating. (A rating can be a number between 1 and 5.) You can include other fields of your choosing as well._
+# Database
+_The site should have functionality to review products so your database should include a one-to-many relationship between Products and Reviews. All products must have a name, cost and country_of_origin. All reviews should have an author, content_body and rating. (A rating can be a number between 1 and 5.) You can include other fields of your choosing as well._
+
+# Products
+_The site needs to include a list of the tasty products that Mario sells._
+_Each product should be clickable with a detail view._
+
+_Users are able to add, update and delete new products._
+_Users should be able to click an individual product to see its detail page._
+_Users should be able to add a review to a product._
+
+# Scopes
+_This site should use scopes to display the following information on the site:_
+_The product with the most reviews._
+_The three most recently added products._
+_All products made in the USA for buyers that want to buy local products._
+
+# Validations
+_This site should include validations for the following:_
+_All fields should be filled out, including rating._
+_Rating can only be an integer between 1 and 5._
+_The review's content_body must be between 50 and 250 characters._
+
+# Callbacks
+_This site should include a callback for the following:_
+_All products are automatically titleized (first letter of each word capitalized) before they are saved to the database._
+
+# Seeding
+_This project should include seed data for 50 products and 250 reviews. Use Faker with a loop to seed the database._
+
+# Flash Messages
+_The project should include flash success and error messages for creating products and reviews._
 
 ## Setup/Installation Requirements
 
@@ -21,12 +52,12 @@ The site should have functionality to review products so your database should in
 * _Type 'bundle install' in terminal to load Gems (if you have capybara version incompatible issue with current version of ruby, try "/Users/[User Name]/.rubies/ruby-2.6.3/bin/bundle install" instead of "bundle install"_
 * _To run tests, type 'rspec' in terminal_
 * _postgres DB installation with sql script in project (if your Postgres DB is not starting at login, please execute "pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start" on terminal._
-* _for database backup, please execute followings in terminal,
-* pg_dump [YOUR DATABASE NAME] > database_backup.sql
-* _for database restore after clone, please execute followings in terminal
-* createdb [DATABASE NAME]
-* psql [DATABASE_NAME] < database_backup.sql
-* createdb -T [DATABASE NAME] [TEST DATABASE NAME]
+* _for database backup, please execute followings in terminal,_
+* _pg_dump [YOUR DATABASE NAME] > database_backup.sql_
+* _for database restore after clone, please execute followings in terminal_
+* _createdb [DATABASE NAME]_
+* _psql [DATABASE_NAME] < database_backup.sql_
+* _createdb -T [DATABASE NAME] [TEST DATABASE NAME]_
 
 ## Specs
 | Behavior                                       | Input                                 | Output                                       |
@@ -54,9 +85,14 @@ The site should have functionality to review products so your database should in
 | Implementing SimpleCov feature in spec test process.|
 | Implementing FactoryBot feature in specs |
 
-## Known Bugs
+## Setup
 
-_No known bugs_
+_bundle install_
+_rake db:create_
+_rake db:migrate_
+_rake db:seed_
+_rails server_
+_open http://localhost:3000 in a web browser_
 
 ## Support and contact details
 
@@ -64,11 +100,18 @@ _Please contact us if you have any issues at: taebumlee@gmail.com_
 
 ## Technologies Used
 
-* Ruby 2.6.3
-* RubyGems
+* Ruby 2.5.4
+* ActiveRecord
+* Rspec
+* Faker
+* FactoryBot
+* Shoulda-Matchers
+* SimpleCov
+* Devise
+* Capybara
 * Atom
 * GitHub
-* Postgres DB 11.4
+* Postgres DB 11.5
 * for faker practice, use the faker information on https://www.rubydoc.info/gems/faker/1.6.6#fakervehicle site for test.
 
 ### License
